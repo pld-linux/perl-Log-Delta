@@ -6,7 +6,7 @@
 %define	pdir	Log
 %define	pnam	Delta
 Summary:	Log::Delta - Logging object with timing and caller information
-Summary(pl):	Log::Delta - obiekt loguj±cy z informacjami o czasie i wywo³uj±cym
+Summary(pl.UTF-8):   Log::Delta - obiekt logujÄ…cy z informacjami o czasie i wywoÅ‚ujÄ…cym
 Name:		perl-Log-Delta
 Version:	0.03
 Release:	0.1
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Log::Delta is a simple Log utility with hi-resolution timing. It is
 suitable for basic performance analysis.
 
-%description -l pl
-Log::Delta to proste narzêdzie do logowania z informacjami o czasie
-du¿ej rozdzielczo¶ci. Nadaje siê do podstawowej analizy wydajno¶ci.
+%description -l pl.UTF-8
+Log::Delta to proste narzÄ™dzie do logowania z informacjami o czasie
+duÅ¼ej rozdzielczoÅ›ci. Nadaje siÄ™ do podstawowej analizy wydajnoÅ›ci.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
