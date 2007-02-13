@@ -6,7 +6,7 @@
 %define	pdir	Log
 %define	pnam	Delta
 Summary:	Log::Delta - Logging object with timing and caller information
-Summary(pl.UTF-8):   Log::Delta - obiekt logujący z informacjami o czasie i wywołującym
+Summary(pl.UTF-8):	Log::Delta - obiekt logujący z informacjami o czasie i wywołującym
 Name:		perl-Log-Delta
 Version:	0.03
 Release:	0.1
