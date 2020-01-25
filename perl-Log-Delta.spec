@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Log
 %define	pnam	Delta
 Summary:	Log::Delta - Logging object with timing and caller information
